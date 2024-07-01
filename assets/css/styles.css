@@ -5,5 +5,27 @@
 }
 body{
     font-family: "Raleway", sans-serif;
+    background-color: #070D1F;
 }
 
+h2{
+    color: white;
+    font-size: 30px;
+}
+.carousel-inner{
+    height: 80vh;
+}
+.somos{
+    color: white;
+    padding: 60px 0px;
+}
+
+.bg-cyan{
+    background-color: #00B4DB;
+    padding: 5px 0px;
+}
+
+.card-body{
+    background-color: #00B4DB;
+    color: white;
+}
