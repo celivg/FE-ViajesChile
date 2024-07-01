@@ -31,13 +31,13 @@
                 <a class="nav-link" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quiénes Somos</a>
+                <a class="nav-link" href="#somos">Quiénes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
           </div>
         </div>
@@ -69,7 +69,7 @@
 
     <!--Quiénes somos-->
     <div class="container-fluid text-center somos px-5 d-none d-sm-block">
-        <h2>Quiénes Somos</h2>
+        <h2 id="somos">QUIÉNES SOMOS</h2>
         <div class="row align-items-start pt-5 mx-5">
           <div class="d-none d-sm-block col-md-4">
               <i class="fa-solid fa-plane bg-cyan w-100"></i>
@@ -88,38 +88,38 @@
 
     <!--Destacados-->
     <div class="container">
-        <h2 class="text-center">Destacados</h2>
-        <div class="row pt-5">
-            <div class="col-12 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+        <h2 id="destacados" class="text-center pt-5">DESTACADOS</h2>
+        <div class="row pt-5 my-3">
+            <div class="col-12 col-md-3 my-2">
+                <div class="card h-100">
+                    <img src="assets/img/card1.jpg" class="card-img-top h-100" alt="...">
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+            <div class="col-12 col-md-3 my-2">
+                <div class="card h-100">
+                    <img src="assets/img/card2.jpg" class="card-img-top h-100" alt="...">
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+            <div class="col-12 col-md-3 my-2">
+                <div class="card h-100">
+                    <img src="assets/img/card3.jpg" class="card-img-top h-100" alt="...">
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-12 col-md-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+            <div class="col-12 col-md-3 my-2">
+                <div class="card h-100">
+                    <img src="assets/img/card4.jpg" class="card-img-top h-100" alt="...">
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
@@ -130,10 +130,54 @@
     </div>
 
     <!--Formulario-->
+    <section class="container px-5">
+        <div class="row">
+          <div class="col pt-5">
+            <h2 id="contacto" class="text-center">CONTACTO</h2>    
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label text-white">Nombre</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label text-white">Asunto</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-5">
+              <button type="button" id="enviarCorreo" class="ms-auto text-end btn btn-info text-white" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Haz click para enviar tu mensaje">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!--Footer-->
 
-
-
+      <footer>
+        <div class="container-fluid text-white bg-footer">
+          <div class="row d-flex align-items-center text-center py-4">
+            <div class=" col-md-6 mx-kanit-light fs-4">
+              <a class="navbar-brand" href="index.html"> Viajes Chile</a>
+            </div>
+            <div class="social col-md-6 fs-3">
+              <a class="text-decoration-none text-white" href="https://github.com/" target="_blank">
+                <i class="fa-brands fa-square-github"></i>
+              </a>
+              <a class="text-decoration-none text-white" href="https://linkedin.com/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a class="text-decoration-none text-white" href="https://x.com/" target="_blank">
+                <i class="fa-brands fa-square-x-twitter"></i>
+              </a>
+              <a class="text-decoration-none text-white" href="https://facebook.com/" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
 
 
 

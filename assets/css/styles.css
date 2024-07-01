@@ -8,13 +8,23 @@ body{
     background-color: #070D1F;
 }
 
+/*Header*/
+.bg-transparent{
+    background-color: transparent !important;
+}
+
 h2{
     color: white;
     font-size: 30px;
 }
-.carousel-inner{
+
+.carousel-inner img{
     height: 80vh;
+    object-fit: cover;
 }
+
+/*Quiénes Somos*/
+
 .somos{
     color: white;
     padding: 60px 0px;
@@ -25,7 +35,27 @@ h2{
     padding: 5px 0px;
 }
 
+/*Destacados*/
+
 .card-body{
     background-color: #00B4DB;
     color: white;
+}
+
+/*Formulario*/
+
+.custom-tooltip {
+    --bs-tooltip-bg: #00B4DB;
+    --bs-tooltip-color: var(--bs-white);
+  }
+
+
+/*Footer*/
+
+.bg-footer{
+    background-color: #00B4DB;
+}
+
+h3{
+    font-size: 18px;
 }
