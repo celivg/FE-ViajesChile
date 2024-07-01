@@ -4,3 +4,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 $("#enviarCorreo").on("click", function () {
     alert("El correo fue enviado correctamente");
 })
+
+$(".form-control").on("click", function ( ){
+    $(this).css("color", "cyan");
+})
