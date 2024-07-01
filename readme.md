@@ -29,3 +29,5 @@ Landing creada con HTML, CSS, Bootstrap y JS
 - Carrusel automático.
 - Smooth scroll entre las secciones del menú de navegación.
 
+## Vista Previa
+[Ver aquí](https://celivg.github.io/FE-ViajesChile/)
