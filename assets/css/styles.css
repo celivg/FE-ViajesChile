@@ -21,6 +21,7 @@ h2{
 .carousel-inner img{
     height: 80vh;
     object-fit: cover;
+    object-position: top;
 }
 
 /*Quiénes Somos*/
